@@ -1,0 +1,52 @@
+
+/** margin top **/
+.top-5 {
+	margin-top: 5px;
+}
+
+/** margin bottom **/
+.bottom-5 {
+	margin-bottom: 5px;
+}
+
+/** default alert message **/
+.alert-error {
+	margin: 0px auto;
+	padding: 3px 15px 15px 15px;
+    background: #FFFCD7;
+    border: 1px solid #DBD9B9;
+    border-radius: 3px;
+}
+
+/** default validation message **/
+.alert-error span, .validation-error {
+	visibility: visible;
+    text-align: left;
+	color: #555;
+	font-size: 12px;
+}
+
+.validation-error {
+	display: block;
+	color: #B8120B;
+}
+
+.alert-error h4 {
+	padding-top: 5px;
+	color: #333;
+    text-align: left;
+    font-weight: normal;
+}
+
+.alert-error div {
+    text-align: left;
+}
+
+.alert-error div img {
+	margin-top: -2px;
+	width: 10px;
+}
+
+.space:before {
+	content: "\00a0 \00a0 ";
+}
